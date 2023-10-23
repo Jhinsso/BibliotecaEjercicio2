@@ -1,6 +1,6 @@
 package common;
-//*
-public class Libros {
+
+public class Libro {
     private Integer isbn;
     private String title;
     private Autor autor;

@@ -1,5 +1,5 @@
 package common;
-//*
+
 public class Autor {
     private Integer id;
     private String name ;

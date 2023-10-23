@@ -4,7 +4,7 @@ public class User {
     private Integer dni;
     private String name ;
     private String subname;
-    //*
+
     private String birthday;
 
     public Integer getDni(){

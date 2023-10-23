@@ -1,5 +1,5 @@
 package common;
-//*
+
 import java.util.Scanner;
 public class Main {
 
@@ -21,7 +21,7 @@ public class Main {
         /**
          * LIBROS
          */
-        Libros book= new Libros();
+        Libro book= new Libro();
         System.out.println("Introduce un ISBN:");
         book.setIsbn(scanner.nextInt());
 
@@ -67,7 +67,7 @@ public class Main {
         /**
          * Loan
          */
-        Prestados loan= new Prestados();
+        Prestamo loan= new Prestamo();
         loan.getId();
         loan.getUser();
         loan.getBooks();
