@@ -18,7 +18,7 @@ public class Prestados {
     public String getDatstart(){
         {return datstart;}
     }
-    public void setDatstart(String datestart)
+    public void setDatstart(String datstart)
     {this.datstart=datstart;}
     public String getDatend(){
         return datend;
