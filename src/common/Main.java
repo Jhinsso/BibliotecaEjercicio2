@@ -28,7 +28,7 @@ public class Main {
         System.out.println("Introduce el TITULO de un libro");
         book.setTitle(scanner.next());
 
-        book.setAutor("Jorge Manrique");
+        book.setAutor(book.getAutor());
 
         book.setGenre(genre);
 

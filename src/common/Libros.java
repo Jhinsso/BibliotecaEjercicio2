@@ -3,7 +3,7 @@ package common;
 public class Libros {
     private Integer isbn;
     private String title;
-    private String autor;
+    private Autor autor;
     private Genre genre;
     private String publication;
 
@@ -21,10 +21,10 @@ public class Libros {
         this.title = title;
     }
 
-    public String getAutor(){
+    public Autor getAutor(){
         return autor;
     }
-    public void setAutor(String autor) {
+    public void setAutor(Autor autor) {
         this.autor = autor;
     }
     public Genre getGenre () {
