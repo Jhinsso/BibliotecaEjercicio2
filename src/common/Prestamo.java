@@ -1,12 +1,12 @@
 package common;
 //*
-public class Prestados {
+public class Prestamo {
 
     private Integer id;
     private String datstart;
     private String datend;
     private User user;
-    private Libros books;
+    private Libro books;
 
     public Integer getId(){
         return id;
@@ -28,7 +28,7 @@ public class Prestados {
     }
     public User getUser() {return user;}
     public void setUser(User user){this.user=user;}
-    public Libros getBooks(){return books;}
-    public void setBooks(Libros books){this.books=books;}
+    public Libro getBooks(){return books;}
+    public void setBooks(Libro books){this.books=books;}
 
 }
